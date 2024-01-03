@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 10px;
+}
+
+div{
+    color: red;
+}
+#id-selector{
+    background-color: blueviolet;
+}
+.class- one{
+    color: chartreuse;
+}
+div ul li{
+    color: aqua;
+}
+.child > p{
+    background-color: cadetblue;
+}
+/* ----Adjacent------- */
+#adjacent + p{
+    border: 2px solid red;
+}
+/* ---general---- */
+#general ~ p{
+    border: 2px solid blue;
+}
+
+/* attribute */
+[title ~="attribut-tiltle-one"]{
+    background-color: brown;  
+}
+a:link{
+    color: red;
+
+}
+a:visited{
+    color:green;
+}
+a:active{
+    color:blue;
+}
+#hover-me:hover{
+    background-color: goldenrod;
+}
+nav p:first-child{
+    background-color: antiquewhite;
+}
+nav p:nth-child(2){
+    font-size: 30px;
+}
+nav p:last-child{
+    background-color: aquamarine;
+}
+
+menu p:nth-child(odd){
+    background-color:blue;
+}
+menu p:nth-child(even){
+    background-color:brown;
+    color: #fff;
+}
+
+#pestyle::first-line{
+    color: burlywood;
+}
+#pestyle::first-letter{
+    font-size: 100px;   
+}
+#pestyle::before{
+    content: "Im Before";  
+    margin-right:20px ;
+}
