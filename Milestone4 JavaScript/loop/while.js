@@ -10,8 +10,14 @@
 //     num = num + 1;
 // }
 
-let num = 1;
-while (num <= 10){
-    console.log(num)
-    num++;
+// let num = 1;
+// while (num <= 10){
+//     console.log(num)
+//     num++;
+// }
+
+let n = 10;
+while(n >= 0){
+    console.log(n);
+    n--; 
 }
