@@ -8,7 +8,7 @@ const bottle = {
 
 const subject = {
     name: 'biology',
-    teacher:'rasheda maam',
+    teacher:'rasheda mam',
     examDate: '30 Feb',
     chapters: ['first', 'second', 'third'],
     exams: {
@@ -16,3 +16,4 @@ const subject = {
         marks: 100
     }
 }
+console.log(bottle);
