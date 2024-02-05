@@ -23,7 +23,7 @@ const friend = ['jodu', 'modhu', 'kodu', 'habu', 'kabu'];
 console.log(friend.join('+'))
 
 // concat
-const fname= 'kabu'
+const fname=     'kabu'
 const lname= 'ali'
 const fullname = fname+ ' ' + lname;
 console.log(fullname);
