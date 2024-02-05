@@ -2,9 +2,10 @@
 const bottle = {
     brand: 'apple',
     price:45,
-    color:white,
+    color:'white',
     isclane: false
 }
+console.log(bottle);
 
 const subject = {
     name: 'biology',
@@ -16,4 +17,4 @@ const subject = {
         marks: 100
     }
 }
-console.log(bottle);
+console.log(subject.exams)
