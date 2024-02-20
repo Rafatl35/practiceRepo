@@ -9,6 +9,6 @@ function filterNumbers(arr) {
   }
   
   // Example usage:
-  const inputArray = {num: [ 1 , 2 , 3 ]}   ;
+  const inputArray = [ 1 , 2 , -3 ]  ;
   const outputArray = filterNumbers(inputArray);
   console.log(outputArray); // Output: [1, 18, -19]
