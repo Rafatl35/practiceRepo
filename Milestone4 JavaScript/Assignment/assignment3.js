@@ -8,7 +8,7 @@ function filterNumbers(arr) {
     return filteredArray;
   }
   
-  // Example usage:
+
   const inputArray = [ 1 , 2 , -3 ]  ;
   const outputArray = filterNumbers(inputArray);
-  console.log(outputArray); // Output: [1, 18, -19]
+  console.log(outputArray);
