@@ -10,9 +10,8 @@ function calculateMoney(ticketSale){
         return dailyRevenue;
     }
     else{
-        return "Invalid Number";
+        return "Enter a positive number";
     }
-
 }
 total = calculateMoney(1055);
 console.log(total);
