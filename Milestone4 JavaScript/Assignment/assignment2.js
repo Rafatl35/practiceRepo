@@ -14,5 +14,5 @@ function checkName(name) {
         return "Bad Name"
     }
 }
-result= checkName('RAFFE');
+result= checkName(["Rashed"] );
 console.log(result);
