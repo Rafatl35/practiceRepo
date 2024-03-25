@@ -37,5 +37,31 @@ console.log("connection");
 // const ul = document.getElementById("li-container");
 // console.log(ul.previousElementSibling.nextElementSibling);
 
-const ul = document.querySelector('ul');
-ul.innerHTML = "<p>hello</p>"
+// const ul = document.querySelector('ul');
+// ul.innerHTML = "<p>hello</p>"
+
+// document.querySelector("h2").removeAttribute("class");
+// document.querySelector("h2").setAttribute("class", "first-heading");
+
+// const att = document.querySelector("h2").getAttribute("id");
+// console.log(att);
+
+// const ul = document.querySelector("ul");
+
+// const li = document.createElement('li');
+// li.innerText = "Added by Js";
+// console.log(li)
+
+// ul.appendChild(li);
+
+// const h2 = document.querySelector("h2");
+// h2.classList.add("first", "second");
+// h2.classList.remove("second")
+
+const ul = document.querySelector("ul");
+const second = document.getElementById("second");
+
+const li = document.createElement("li");
+li.innerText = "Hello"
+
+ul.insertBefore(li, second);
