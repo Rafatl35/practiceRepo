@@ -54,14 +54,14 @@ console.log("connection");
 
 // ul.appendChild(li);
 
-// const h2 = document.querySelector("h2");
-// h2.classList.add("first", "second");
-// h2.classList.remove("second")
+const h2 = document.querySelector("h2");
+h2.classList.add("first", "second");
+h2.classList.remove("second")
+h2.classList.add("common-class")
+// const ul = document.querySelector("ul");
+// const second = document.getElementById("second");
 
-const ul = document.querySelector("ul");
-const second = document.getElementById("second");
+// const li = document.createElement("li");
+// li.innerText = "Hello"
 
-const li = document.createElement("li");
-li.innerText = "Hello"
-
-ul.insertBefore(li, second);
+// ul.insertBefore(li, second);
